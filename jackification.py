@@ -24,5 +24,5 @@ def show_icon():
         gobject.timeout_add(1000, show_icon)
 
 if __name__ == '__main__':
-    gobject.timeout_add(1000, show_icon)
+    show_icon()
     gtk.main()
