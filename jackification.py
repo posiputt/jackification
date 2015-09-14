@@ -17,12 +17,12 @@ def show_icon():
         status = f.read()
         if status[:9] == "connected":
             icon.set_from_stock(online)
-            if status[10:] == "notifications":
-                icon.set_blinking(True)
-            else:
-                icon.set_blinking(False)
         else:
             icon.set_from_stock(offline)
+        if status[-13:] == "notifications":
+            icon.set_blinking(True)
+        else:
+            icon.set_blinking(False)
 
 if __name__ == '__main__':
     show_icon()
