@@ -1,5 +1,5 @@
 # jackification
-a very simple systray icon for jackline (https://github.com/hannesm/jackline)
+a very simple systray icon for [jackline](https://github.com/hannesm/jackline)
 
 requirements
 ------------
@@ -10,6 +10,10 @@ written and tested with pyGTK 2.24.0 on linux mint
 usage
 -----
 run script.
+it defaults to notification.state in jackline's default config directory:
+~/.config/ocaml-xmpp-client/
+you can give a custom directory as an argument like so:
+$ jackification <customdir>
 
 what happen!
 ------------
