@@ -13,7 +13,7 @@ run script.
 it defaults to notification.state in jackline's default config directory:
 ~/.config/ocaml-xmpp-client/
 you can give a custom directory as an argument like so:
-$ jackification <customdir>
+$ jackification (customdir)
 
 what happen!
 ------------
