@@ -1,6 +1,12 @@
 # jackification
 a very simple systray icon for [jackline](https://github.com/hannesm/jackline)
 
+hear this!
+----------
+this program does not work with current versions of jackline.
+i will fix this, but right now i'm too lazy or preoccupied.
+sorry for the inconvenience.
+
 requirements
 ------------
 needs pyGTK >= 2.10 to be installed.
