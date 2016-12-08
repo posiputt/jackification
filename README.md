@@ -5,7 +5,7 @@ hear this!
 ----------
 this program does not work with current versions of jackline.
 i will fix this, but right now i'm too lazy or preoccupied.
-sorry for the inconvenience.
+sorry for the inconvenience. Feel free to fork, though.
 
 requirements
 ------------
